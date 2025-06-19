@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 News - Steam</title>
+    <link rel="icon" href="photos/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="photos/logo.png" alt="CS2 Logo"></a>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-btn" style="background-color: #4a5568;">На головну</a></li>
+            <li class="auth-link-item"><a href="AutReg.html" class="auth-link nav-btn">Вход</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="news-section">
+            <h2>Офіційні новини Steam</h2>
+            <div id="news-container" class="news-grid">
+                </div>
+            <button class="show-more-btn" id="loadMoreSteamNews" style="display: none;">Заватажити ще</button>
+            <div id="loading-indicator" style="text-align: center; padding: 20px; font-size: 1.2rem;">
+                Завантаження новостей...
+            </div>
+        </section>
+
+        <section class="server-status-section">
+            <h2>Статус сервера Steam</h2>
+            <div id="server-status-container" class="server-status-grid">
+                </div>
+            <div id="status-loading-indicator" style="text-align: center; padding: 20px; font-size: 1.2rem;">
+                Завантаження статуса сервера...
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <form id="subscribeForm">
+            <label for="subscribeEmail">Підписатися на новини:</label>
+            <input type="email" id="subscribeEmail" placeholder="Ваш email" required>
+            <button type="submit">Підписатися</button>
+        </form>
+        <p>Розробником є Мілун Ярослав</p>
+        <ul>
+            <li><a href="Politika.html">Політика конфіденційності</a></li>
+            <li><a href="Used.html">Умови використання</a></li>
+            <li><a href="https://web.telegram.org/k/?account=2#@JxmanJ1">Контакти</a></li>
+        </ul>
+        <p>© 2025 Усі права захищені</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизація та Реєстрація</title>
+    <link rel="icon" href="photos/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="photos/logo.png">
+    <meta name="description" content="Авторизація та реєстрація">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="auth-page">
+    <header>
+        <a href="index.html" class="logo"><img src="photos/logo.png" alt="CS2 Logo"></a>
+        <ul class="nav-menu">
+            <li><a href="Steam.html" class="nav-btn" style="background-color: #4a5568;">Новини CS2</a></li>
+            <li><a href="index.html" class="nav-btn" style="background-color: #4a5568;">На головну</a></li>
+        </ul>
+    </header>   
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <div class="toggle-buttons">
+                    <button id="loginToggle" class="active">Увійти</button>
+                    <button id="registerToggle">Зареєструватися</button>
+                    <div class="wave to-login"></div>
+                </div>
+                <div id="loginForm" class="form active">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Введіть email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Введіть пароль" required>
+                        </div>
+                        <button type="submit">Увійти</button>
+                    </form>
+                </div>
+                <div id="registerForm" class="form">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Ім'я</label>
+                            <input type="text" id="username" placeholder="Введіть ім'я" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Введіть email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Введіть пароль" required>
+                        </div>
+                        <button type="submit">Зареєструватися</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

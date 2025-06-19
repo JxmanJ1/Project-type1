@@ -1,0 +1,681 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+  height: 100%;
+}
+
+/* Base layout for sticky footer */
+body {
+  min-height: 100vh; /* Use min-height to ensure it fills the viewport */
+  line-height: 1.6;
+  color: #fff;
+  background: url('photos/Kiber.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgba(44, 44, 62, 0.8);
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  flex-wrap: wrap;
+  flex-shrink: 0; 
+}
+
+/* Main content area grows to push footer down */
+main {
+  flex: 1 0 auto;
+}
+
+/* Layout for the authorization page */
+.auth-page main {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;   /* Center horizontally */
+    padding-top: 5vh;      /* Add some space from the top */
+}
+
+/* Styling for the welcome heading */
+.welcome-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px; /* Space between heading and form */
+}
+
+.welcome-header h1 {
+  color: #ff0000;
+  font-size: 4.5rem; /* Larger font size */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.6); /* Red glow effect */
+  font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+
+/* Footer stays at the bottom */
+footer {
+  background: #2c2c3e;
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+
+.logo {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo:hover {
+  color: #ff0000;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.auth-link {
+  color: #fff;
+  text-decoration: none;
+}
+.news-section,
+.matches-section,
+.players-section,
+.server-status-section {
+  padding: 20px;
+  background: rgba(44, 44, 62, 0.8);
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 1200px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.news-item h3 a {
+    color: #ff7f7f;
+    text-decoration: none;
+}
+.news-item h3 a:hover {
+    text-decoration: underline;
+}
+
+
+.news-slider {
+  overflow: hidden;
+}
+
+.news-slider div {
+  padding: 20px;
+  background: rgba(58, 58, 77, 0.8);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tab-button {
+  padding: 10px;
+  background: rgba(58, 58, 77, 0.8);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tab-button.active {
+  background: #ff0000;
+}
+
+.tab-content {
+  display: none;
+  background: rgba(58, 58, 77, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto; 
+  width: 100%;
+  padding: 0 15px;
+}
+
+.form-container {
+  background: #2c2c3e;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.toggle-buttons {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background: #2c2c3e;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.toggle-buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+
+.toggle-buttons button.active {
+  font-weight: bold;
+}
+
+.toggle-buttons .wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #ff0000;
+  border-radius: 20px;
+  transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.toggle-buttons .wave.to-login {
+  transform: translateX(0%);
+}
+
+.toggle-buttons .wave.to-register {
+  transform: translateX(100%);
+}
+
+.form {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.form.active {
+  max-height: 400px;
+  opacity: 1;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ddd;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #444;
+  border-radius: 15px;
+  background: #3a3a4d;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #ff0000;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #cc0000;
+}
+
+footer form {
+  margin-bottom: 20px;
+}
+
+footer input {
+  margin-right: 10px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.players-section {
+  text-align: center;
+}
+
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(58, 58, 77, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.player-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  background-color: #444;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.player-nick {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.player-link {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.player-link:hover {
+  text-decoration: underline;
+}
+
+.matches-section {
+  padding: 20px;
+}
+
+.match {
+  background: rgba(58, 58, 77, 0.8);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.match h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.match p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #cc0000;
+}
+
+.slick-next,
+.slick-prev {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slick-next:hover,
+.slick-prev:hover {
+  background-color: #cc0000;
+}
+
+.team-view-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.team-view-btn:hover {
+  background-color: #cc0000;
+}
+
+.show-more-btn {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.show-more-btn:hover {
+  background-color: #cc0000;
+}
+
+footer form {
+  max-width: 300px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+footer label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+footer input {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #3a3a4d;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+footer input:focus {
+  outline: none;
+  border-color: #ff0000;
+  box-shadow: 0 0 5px #ff0000;
+}
+
+footer button {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+footer button:hover {
+  background-color: #cc0000;
+}
+
+.policy-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(44, 44, 62, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.policy-container h1,
+.policy-container h2,
+.policy-container h3,
+.policy-container h4,
+.policy-container h5,
+.policy-container h6 {
+  color: #ff0000;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.policy-container h1 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.policy-container h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.policy-container p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: #ddd;
+  text-align: justify;
+}
+
+.policy-container ul {
+  list-style-type: disc;
+  margin: 15px 0;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.policy-container li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.players-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.news-card {
+    background: rgba(58, 58, 77, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.news-card:hover {
+    transform: translateY(-5px);
+}
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.news-card-content {
+    padding: 15px;
+}
+.news-card-content h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.news-card-content h3 a {
+    color: #ff7f7f;
+    text-decoration: none;
+}
+.news-card-content h3 a:hover {
+    text-decoration: underline;
+}
+.news-card-content p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+.news-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.server-status-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.server-status-card {
+    background: rgba(44, 44, 60, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+.server-status-card h4 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #eee;
+}
+.status {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.status.normal { background-color: #28a745; }
+.status.idle { background-color: #ffc107; color: #333; }
+.status.delayed { background-color: #ffc107; color: #333; }
+.status.surge { background-color: #ffc107; color: #333; }
+.status.critical { background-color: #dc3545; }
+.status.unknown { background-color: #6c757d; }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+  }
+
+  .news-section,
+  .matches-section,
+  .players-section,
+  .server-status-section {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+  .policy-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .policy-container h1 {
+    font-size: 28px;
+  }
+
+  .policy-container h2 {
+    font-size: 20px;
+  }
+
+  .policy-container p,
+  .policy-container li {
+    font-size: 14px;
+  }
+  
+  .welcome-header h1 {
+      font-size: 2.8rem;
+  }
+}
+.btn-main {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-main:hover {
+  background-color: #cc0000;
+}

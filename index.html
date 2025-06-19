@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 Matrix</title>
+    <link rel="icon" href="photos/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="photos/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="photos/logo.png" alt="Logo"></a>
+        <ul class="nav-menu">
+            <li><a href="Steam.html" class="nav-btn" style="background-color: #4a5568;">Новини CS2</a></li>
+            <li class="auth-link-item"><a href="AutReg.html" class="auth-link nav-btn">Вхід</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="news-section">
+            <h2>Головні новини</h2>
+            <div class="news-grid"></div>
+            <button class="show-more-btn" id="loadMoreNews" style="display: none;">Дивитись ще</button>
+        </section>
+
+        <section class="matches-section">
+            <h2>МАТЧІ</h2>
+            <div class="tabs">
+                <button class="tab-button active" data-tab="current-matches">Майбутні</button>
+                <button class="tab-button" data-tab="ongoing-matches">Поточні</button>
+                <button class="tab-button" data-tab="past-matches">Минулі</button>
+            </div>
+            <div id="current-matches" class="tab-content active">
+                 <button class="show-more-btn" id="show-more-current-matches" style="display: none;">Показати ще</button>
+            </div>
+            <div id="ongoing-matches" class="tab-content">
+                 <button class="show-more-btn" id="show-more-ongoing-matches" style="display: none;">Показати ще</button>
+            </div>
+            <div id="past-matches" class="tab-content">
+                 <button class="show-more-btn" id="show-more-past-matches" style="display: none;">Показати ще</button>
+            </div>
+        </section>
+
+        <section class="players-section">
+            <h2 id="team-name-heading">Склад команди</h2>
+            <img src="" alt="Team Logo" class="team-logo" style="display: none;">
+            <div class="players-grid">
+                </div>
+            <button class="team-view-btn">Дивитись наступну команду</button>
+        </section>
+    </main>
+
+    <footer>
+        <form id="subscribeForm">
+            <label for="subscribeEmail">Підписатися на новини:</label>
+            <input type="email" id="subscribeEmail" placeholder="Ваш email" required>
+            <button type="submit">Підписатися</button>
+        </form>
+        <p>Розробником є Мілун Ярослав</p>
+        <ul>
+            <li><a href="Politika.html">Політика конфіденційності</a></li>
+            <li><a href="Used.html">Умови використання</a></li>
+            <li><a href="https://web.telegram.org/k/?account=2#@JxmanJ1">Контакти</a></li>
+        </ul>
+        <p>© 2025 Усі права захищені</p>
+    </footer>
+</body>
+</html>

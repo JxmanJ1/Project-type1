@@ -1,0 +1,860 @@
+[
+  {
+    "id": 2359900,
+    "time": "2025-06-15T08:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": "https://img-cdn.hltv.org/eventlogo/adIB7mzeYFH6m60KEvZhus.svg?ixlib=java-2.1.0&s=1edbd1a4b3f670ee7dcd9818c80bdbcf"
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11893,
+        "name": "Legacy",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RWbHH6RA8uGwJurGeLFvSr.png?ixlib=java-2.1.0&w=50&s=3d251032e156cab2f6df8c630ca29745"
+      },
+      {
+        "id": 4494,
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/IejtXpquZnE8KqYPB1LNKw.svg?ixlib=java-2.1.0&s=7fd33b8def053fbfd8fdbb58e3bdcd3c"
+      }
+    ]
+  },
+  {
+    "id": 2359901,
+    "time": "2025-06-15T10:30:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11538,
+        "name": "The MongolZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/bRk2sh_tSTO6fq1GLhgcal.png?ixlib=java-2.1.0&w=100&s=1bd99148a19e1e706b543500206901d4"
+      },
+      {
+        "id": 5995,
+        "name": "G2",
+        "logo": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=100&s=88aeba1564bc27de69fb2302e47e1a7c"
+      }
+    ]
+  },
+  {
+    "id": 2359902,
+    "time": "2025-06-15T13:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 9215,
+        "name": "Virtus.pro",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+      },
+      {
+        "id": 9248,
+        "name": "paiN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=100&s=9d82f86f4573bab52b77611afcddb595"
+      }
+    ]
+  },
+  {
+    "id": 2359904,
+    "time": "2025-06-16T20:00:00.000Z",
+    "event": {
+      "name": "CCT North Europe Series 1",
+      "logo": ""
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10621,
+        "name": "1WIN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/zbmzI2IMFNwHUvTO4EHaTZ.png?ixlib=java-2.1.0&w=100&s=4386b1cf14aad08da4fa872894c4c44f"
+      },
+      {
+        "id": 4602,
+        "name": "Tricked",
+        "logo": "https://img-cdn.hltv.org/teamlogo/blNchPRF06sVx4To-LemoY.png?ixlib=java-2.1.0&w=100&s=a42ef0207f16a82f2790aef8aed5b3be"
+      }
+    ]
+  },
+  {
+    "id": 2359905,
+    "time": "2025-06-17T17:00:00.000Z",
+    "event": {
+      "name": "CCT South Europe Series 1",
+      "logo": ""
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11811,
+        "name": "Monte",
+        "logo": "https://img-cdn.hltv.org/teamlogo/2tc9n4fHkiRIX2FiJSkhgt.png?ixlib=java-2.1.0&w=100&s=35b0f1f1725e21bc55bb9a3f6edb344e"
+      },
+      {
+        "id": 8135,
+        "name": "forZe",
+        "logo": "https://img-cdn.hltv.org/teamlogo/x0iXzbuTd75816rzdvXwnQ.png?ixlib=java-2.1.0&w=100&s=24b9c2230e21733dba7246ab1499a8a7"
+      }
+    ]
+  },
+  {
+    "id": 2359906,
+    "time": "2025-06-17T20:00:00.000Z",
+    "event": {
+      "name": "CCT South Europe Series 1",
+      "logo": ""
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7461,
+        "name": "Copenhagen Flames",
+        "logo": "https://img-cdn.hltv.org/teamlogo/o9gWbZqKaYgDJL5ttGKuqQ.png?ixlib=java-2.1.0&w=100&s=9937572ba28748784a4d64e993eaec4c"
+      },
+      {
+        "id": 4602,
+        "name": "Tricked",
+        "logo": "https://img-cdn.hltv.org/teamlogo/blNchPRF06sVx4To-LemoY.png?ixlib=java-2.1.0&w=100&s=a42ef0207f16a82f2790aef8aed5b3be"
+      }
+    ]
+  },
+  {
+    "id": 2359907,
+    "time": "2025-06-18T17:00:00.000Z",
+    "event": {
+      "name": "Elisa Invitational Fall 2025",
+      "logo": ""
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 8637,
+        "name": "Sprout",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Ut8iEF66VCIbZGniMYn5jL.svg?ixlib=java-2.1.0&s=e6ae4904320fcbb566d098641e22a474"
+      },
+      {
+        "id": 11737,
+        "name": "EYEBALLERS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/3-Mfc-yWBTls8MPSEFhma5.png?ixlib=java-2.1.0&w=100&s=6ba2cf9cf95c6e57b0438192e5e334dc"
+      }
+    ]
+  },
+  {
+    "id": 2359908,
+    "time": "2025-06-18T20:00:00.000Z",
+    "event": {
+      "name": "Elisa Invitational Fall 2025",
+      "logo": ""
+    },
+    "stars": 1,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11518,
+        "name": "Bad News Eagles",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ohLs36jqZnmOpBFWDjk5Az.png?ixlib=java-2.1.0&w=100&s=78facebb96c3a0938d8355c27420e67c"
+      },
+      {
+        "id": 10577,
+        "name": "SINNERS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed"
+      }
+    ]
+  },
+  {
+    "id": 2359909,
+    "time": "2025-06-19T14:00:00.000Z",
+    "event": {
+      "name": "WePlay Academy League Season 6",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 11176,
+        "name": "MOUZ NXT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RfR1zmFJ0eP08VmFb6UOu3.png?ixlib=java-2.1.0&w=100&s=b1bf115f05eacdf004c193d48338ff11"
+      },
+      {
+        "id": 10954,
+        "name": "Astralis Talent",
+        "logo": "https://img-cdn.hltv.org/teamlogo/CjJ724E0EVB8cIXAVmwi5w.svg?ixlib=java-2.1.0&s=41f113b08d461bee5d8673d4612811dd"
+      }
+    ]
+  },
+  {
+    "id": 2359910,
+    "time": "2025-06-19T15:10:00.000Z",
+    "event": {
+      "name": "WePlay Academy League Season 6",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 10371,
+        "name": "NAVI Junior",
+        "logo": "https://img-cdn.hltv.org/teamlogo/v6HtbTihf7xoHF1YlAkJ87.svg?ixlib=java-2.1.0&s=42241b88f4ecffaba7cf57c937236809"
+      },
+      {
+        "id": 7900,
+        "name": "Spirit Academy",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6iL7hUvamkQZnyOjw2MInU.png?ixlib=java-2.1.0&w=100&s=cc4e1529a79a0323f4f546110c886eb5"
+      }
+    ]
+  },
+  {
+    "id": 2359911,
+    "time": "2025-06-19T16:20:00.000Z",
+    "event": {
+      "name": "WePlay Academy League Season 6",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 11425,
+        "name": "PROSPECTS",
+        "logo": "https://img-cdn.hltv.org/teamlogo/A5CoNYCc83FVpWPLGEgqMZ.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=59689d8bfd314757cdefde798fcc7453"
+      },
+      {
+        "id": 8885,
+        "name": "FURIA Academy",
+        "logo": "https://img-cdn.hltv.org/teamlogo/YsXiSdXuHo9hY8ip5cjbnL.png?ixlib=java-2.1.0&w=100&s=850dc739dbe9fabbf4a192973b98358c"
+      }
+    ]
+  },
+  {
+    "id": 2359912,
+    "time": "2025-06-20T17:00:00.000Z",
+    "event": {
+      "name": "CCT Central Europe Series 3",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7865,
+        "name": "HAVU",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_bpWybCQhDRnPq8Z2ZYO5h.png?ixlib=java-2.1.0&w=100&s=99c36548c4e088177485c8920c2770f0"
+      },
+      {
+        "id": 11001,
+        "name": "ONYX",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_VfjYmnep5H-CP_UXf8vtp.svg?ixlib=java-2.1.0&s=99cfe2ae90f26cbd652759200235fef5"
+      }
+    ]
+  },
+  {
+    "id": 2359913,
+    "time": "2025-06-20T20:00:00.000Z",
+    "event": {
+      "name": "CCT Central Europe Series 3",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7340,
+        "name": "Wolsung",
+        "logo": "https://img-cdn.hltv.org/teamlogo/5ofESwp8YW4HDnV7H7pQjx.png?ixlib=java-2.1.0&w=100&s=76021f931c65703c3c5e5422d59a6a05"
+      },
+      {
+        "id": 7441,
+        "name": "ECLOT",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_hHH1jUhX-4DfQpnVo6Gv-.png?ixlib=java-2.1.0&w=100&s=6581452bddd229812397fb4fc59658ca"
+      }
+    ]
+  },
+  {
+    "id": 2359914,
+    "time": "2025-06-21T10:00:00.000Z",
+    "event": {
+      "name": "ESL Impact League Season 2 Europe",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11539,
+        "name": "NIP Impact",
+        "logo": "https://img-cdn.hltv.org/teamlogo/UupQ4NEHcA1I8GNx861cN7.png?ixlib=java-2.1.0&w=100&s=03e360a8998e6f569da3350ad6caf193"
+      },
+      {
+        "id": 11648,
+        "name": "BIG EQUIPA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6UagLkzIYk5UVlCFmEYXt1.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=1e3087f64df9ea6544d3afe83394de68"
+      }
+    ]
+  },
+  {
+    "id": 2359915,
+    "time": "2025-06-21T13:00:00.000Z",
+    "event": {
+      "name": "ESL Impact League Season 2 Europe",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11651,
+        "name": "NAVI Javelins",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c"
+      },
+      {
+        "id": 11649,
+        "name": "GUILD fe",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Et5teirqZooriiXU3AlQrt.png?ixlib=java-2.1.0&w=100&s=35eb0dea5ab4454e9eb9b69794bfaf5a"
+      }
+    ]
+  },
+  {
+    "id": 2359916,
+    "time": "2025-06-22T09:00:00.000Z",
+    "event": {
+      "name": "ESL Premiership Autumn 2025",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 7234,
+        "name": "Endpoint",
+        "logo": "https://img-cdn.hltv.org/teamlogo/EtlS2mffWkVEo3j0cY7QYo.png?ixlib=java-2.1.0&w=100&s=7ed7b19aa98f6ceb75786c588f53368d"
+      },
+      {
+        "id": 9840,
+        "name": "1PIN",
+        "logo": "https://www.hltv.org/dynamic-svg/teamplaceholder?letter=1"
+      }
+    ]
+  },
+  {
+    "id": 2359917,
+    "time": "2025-06-22T12:00:00.000Z",
+    "event": {
+      "name": "ESL Premiership Autumn 2025",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11164,
+        "name": "Into the Breach",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Tgyea9TVbc37YisEY4Y13a.png?ixlib=java-2.1.0&w=100&s=27b9deb8268e152ea71385525d47e36f"
+      },
+      {
+        "id": 11883,
+        "name": "Verdant",
+        "logo": "https://img-cdn.hltv.org/teamlogo/IWQ_ecm87O61yWEITlq7mD.png?ixlib=java-2.1.0&w=100&s=f4af2050d69fb094f40b426bbbe57ead"
+      }
+    ]
+  },
+  {
+    "id": 2359918,
+    "time": "2025-06-23T16:00:00.000Z",
+    "event": {
+      "name": "IEM Road to Rio 2025 Europe RMR B",
+      "logo": ""
+    },
+    "stars": 2,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 5973,
+        "name": "Liquid",
+        "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62"
+      },
+      {
+        "id": 9455,
+        "name": "Imperial",
+        "logo": "https://img-cdn.hltv.org/teamlogo/WF5P55R5fxcmhoew6vHZQr.png?ixlib=java-2.1.0&w=100&s=69a1bfb54d6350db4a0b18ff87a96dcc"
+      }
+    ]
+  },
+  {
+    "id": 2359919,
+    "time": "2025-06-23T19:30:00.000Z",
+    "event": {
+      "name": "IEM Road to Rio 2025 Europe RMR B",
+      "logo": ""
+    },
+    "stars": 2,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10399,
+        "name": "Evil Geniuses",
+        "logo": "https://img-cdn.hltv.org/teamlogo/47HM0f8TiD-EXYe80HjLnr.png?ixlib=java-2.1.0&w=100&s=5cef4aa1efd9a48de123b24dfb9dc4c5"
+      },
+      {
+        "id": 8297,
+        "name": "FURIA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c"
+      }
+    ]
+  },
+  {
+    "id": 2359920,
+    "time": "2025-06-24T18:00:00.000Z",
+    "event": {
+      "name": "Flow FiReLEAGUE 2025 Global Finals",
+      "logo": ""
+    },
+    "stars": 1,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 9996,
+        "name": "9z",
+        "logo": "https://img-cdn.hltv.org/teamlogo/COZDFWOIm41AT0srqOHFhM.png?ixlib=java-2.1.0&w=50&s=81c70f301dfc75e014336aa0ccb440f9"
+      },
+      {
+        "id": 7718,
+        "name": "Movistar Riders",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=100&s=07c7f78adddce9861546f8facb29e5ba"
+      }
+    ]
+  },
+  {
+    "id": 2359921,
+    "time": "2025-06-24T19:00:00.000Z",
+    "event": {
+      "name": "Flow FiReLEAGUE 2025 Global Finals",
+      "logo": ""
+    },
+    "stars": 1,
+    "maps": "bo1",
+    "teams": [
+      {
+        "id": 9248,
+        "name": "paiN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=100&s=9d82f86f4573bab52b77611afcddb595"
+      },
+      {
+        "id": 11593,
+        "name": "MIBR",
+        "logo": "https://img-cdn.hltv.org/teamlogo/m_JQ624LNFHWiUY-25uuaE.png?ixlib=java-2.1.0&w=100&s=bbcc329085294daa8e8a7111850b331b"
+      }
+    ]
+  },
+  {
+    "id": 2359922,
+    "time": "2025-06-25T11:00:00.000Z",
+    "event": {
+      "name": "ESL Challenger League Season 45 Europe",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10831,
+        "name": "Entropiq",
+        "logo": "https://img-cdn.hltv.org/teamlogo/_x9xMubeeb-fqq_21BJ6Fd.png?ixlib=java-2.1.0&w=100&s=a7808b2e213025d1234b536c58b2afe4"
+      },
+      {
+        "id": 9928,
+        "name": "GamerLegion",
+        "logo": "https://img-cdn.hltv.org/teamlogo/jS__cj2F09Bl8qBU_CvkQR.png?ixlib=java-2.1.0&w=100&s=28ae8e35bdc4bffb0dd245e08235e363"
+      }
+    ]
+  },
+  {
+    "id": 2359923,
+    "time": "2025-06-25T14:00:00.000Z",
+    "event": {
+      "name": "ESL Challenger League Season 45 Europe",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11251,
+        "name": "Eternal Fire",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Tafdq71X3B_-73b73bAixr.png?ixlib=java-2.1.0&w=100&s=acf07fab5478f7dda7201085fc55e467"
+      },
+      {
+        "id": 4602,
+        "name": "Tricked",
+        "logo": "https://img-cdn.hltv.org/teamlogo/blNchPRF06sVx4To-LemoY.png?ixlib=java-2.1.0&w=100&s=a42ef0207f16a82f2790aef8aed5b3be"
+      }
+    ]
+  },
+  {
+    "id": 2359924,
+    "time": "2025-06-26T09:00:00.000Z",
+    "event": {
+      "name": "ESL Challenger League Season 45 Asia-Pacific",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 9458,
+        "name": "Lynn Vision",
+        "logo": "https://img-cdn.hltv.org/teamlogo/DPcHT21uWwK1hDD_3txlL9.png?ixlib=java-2.1.0&w=100&s=1529ee0026d4e588254fbcd85037eeff"
+      },
+      {
+        "id": 8008,
+        "name": "Grayhound",
+        "logo": "https://img-cdn.hltv.org/teamlogo/IjyAECYg-7zLXJEUj-aRqa.svg?ixlib=java-2.1.0&s=def9c53f5b91c85af4a5a0a6f2606d26"
+      }
+    ]
+  },
+  {
+    "id": 2359925,
+    "time": "2025-06-26T12:00:00.000Z",
+    "event": {
+      "name": "ESL Challenger League Season 45 Asia-Pacific",
+      "logo": ""
+    },
+    "stars": 0,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 4863,
+        "name": "TYLOO",
+        "logo": "https://img-cdn.hltv.org/teamlogo/hMPKtNMDxp07n3lrBEHCuq.svg?ixlib=java-2.1.0&s=6d22fc4af07d0cd9d31fcd7f3023af9a"
+      },
+      {
+        "id": 11585,
+        "name": "IHC",
+        "logo": "https://img-cdn.hltv.org/teamlogo/Dmy6A1T8EZ9OKU-x7yT4VR.png?ixlib=java-2.1.0&w=100&s=f4fe52db4325e243f484c495888c84b0"
+      }
+    ]
+  },
+  {
+    "id": 2359926,
+    "time": "2025-06-27T17:00:00.000Z",
+    "event": {
+      "name": "BLAST Premier Fall Showdown 2025 Europe",
+      "logo": ""
+    },
+    "stars": 3,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 9565,
+        "name": "Vitality",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=100&s=a0731380d1075205aadb30905a49da55"
+      },
+      {
+        "id": 4991,
+        "name": "fnatic",
+        "logo": "https://img-cdn.hltv.org/teamlogo/dLtWEdSV58lIX1amAFggy0.svg?ixlib=java-2.1.0&s=f24d0a7b3ef24ed57184a51d35202b4e"
+      }
+    ]
+  },
+  {
+    "id": 2359927,
+    "time": "2025-06-27T20:00:00.000Z",
+    "event": {
+      "name": "BLAST Premier Fall Showdown 2025 Europe",
+      "logo": ""
+    },
+    "stars": 3,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 6667,
+        "name": "Astralis",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067"
+      },
+      {
+        "id": 10503,
+        "name": "OG",
+        "logo": "https://img-cdn.hltv.org/teamlogo/VZHA__RIJY6gisB-l6HfiO.png?ixlib=java-2.1.0&w=100&s=2ef53aec0eec6572ba50ed419222d4e5"
+      }
+    ]
+  },
+  {
+    "id": 2359928,
+    "time": "2025-06-28T17:00:00.000Z",
+    "event": {
+      "name": "BLAST Premier Fall Showdown 2025 North America",
+      "logo": ""
+    },
+    "stars": 2,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 5973,
+        "name": "Liquid",
+        "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62"
+      },
+      {
+        "id": 9104,
+        "name": "Complexity",
+        "logo": "https://img-cdn.hltv.org/teamlogo/HP3QlPseFLIDHNmZjeyA9A.png?ixlib=java-2.1.0&w=100&s=f85f4afbd661f66495cdc9a447fd6840"
+      }
+    ]
+  },
+  {
+    "id": 2359929,
+    "time": "2025-06-28T20:00:00.000Z",
+    "event": {
+      "name": "BLAST Premier Fall Showdown 2025 North America",
+      "logo": ""
+    },
+    "stars": 2,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 10399,
+        "name": "Evil Geniuses",
+        "logo": "https://img-cdn.hltv.org/teamlogo/p6OXTVsTFEhOcbTJ8gmuP6.png?invert=true&ixlib=java-2.1.0&sat=-100&w=100&s=2e51eb9aef71e50ef46e5fc812876d18"
+      },
+      {
+        "id": 11593,
+        "name": "MIBR",
+        "logo": "https://img-cdn.hltv.org/teamlogo/m_JQ624LNFHWiUY-25uuaE.png?ixlib=java-2.1.0&w=100&s=bbcc329085294daa8e8a7111850b331b"
+      }
+    ]
+  },
+  {
+    "id": 2359895,
+    "time": "2025-06-14T12:25:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 4608,
+        "name": "Natus Vincere",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c"
+      },
+      {
+        "id": 5995,
+        "name": "G2",
+        "logo": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=100&s=88aeba1564bc27de69fb2302e47e1a7c"
+      }
+    ]
+  },
+  {
+    "id": 2359896,
+    "time": "2025-06-14T13:45:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 9215,
+        "name": "Virtus.pro",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+      },
+      {
+        "id": 9565,
+        "name": "Vitality",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=100&s=a0731380d1075205aadb30905a49da55"
+      }
+    ]
+  },
+  {
+    "id": 2359930,
+    "time": "2025-06-14T10:25:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 4494,
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/IejtXpquZnE8KqYPB1LNKw.svg?ixlib=java-2.1.0&s=7fd33b8def053fbfd8fdbb58e3bdcd3c"
+      },
+      {
+        "id": 11880,
+        "name": "Aurora",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yJzPNOeXlyiniNxanYJCrv.png?ixlib=java-2.1.0&w=100&s=f23524510b9d49ea59166e6e2efee1ac"
+      }
+    ]
+  },
+  {
+    "id": 2359931,
+    "time": "2025-06-14T08:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 9248,
+        "name": "paiN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=100&s=9d82f86f4573bab52b77611afcddb595"
+      },
+      {
+        "id": 11881,
+        "name": "3DMAX",
+        "logo": "https://img-cdn.hltv.org/teamlogo/QGPDS3Z2-aMXwCYVgA4RWH.png?ixlib=java-2.1.0&w=100&s=6fdbbfe67b4dd4aecfc2554825d72eea"
+      }
+    ]
+  },
+  {
+    "id": 2359932,
+    "time": "2025-06-14T08:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 11893,
+        "name": "Legacy",
+        "logo": "https://img-cdn.hltv.org/teamlogo/RWbHH6RA8uGwJurGeLFvSr.png?ixlib=java-2.1.0&w=100&s=10ff29ff632e0bd82922f4fcd83f930f"
+      },
+      {
+        "id": 9458,
+        "name": "Lynn Vision",
+        "logo": "https://img-cdn.hltv.org/teamlogo/DPcHT21uWwK1hDD_3txlL9.png?ixlib=java-2.1.0&w=100&s=1529ee0026d4e588254fbcd85037eeff"
+      }
+    ]
+  },
+  {
+    "id": 2359933,
+    "time": "2025-06-13T18:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 8297,
+        "name": "FURIA",
+        "logo": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c"
+      },
+      {
+        "id": 9215,
+        "name": "Virtus.pro",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875"
+      }
+    ]
+  },
+  {
+    "id": 2359934,
+    "time": "2025-06-13T16:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 5973,
+        "name": "Spirit",
+        "logo": "https://img-cdn.hltv.org/teamlogo/ywdn4tmAvXfllLeV2SkkvF.png?ixlib=java-2.1.0&w=100&s=e441b77b1cafbca20ba9f667caca56f4"
+      },
+      {
+        "id": 4608,
+        "name": "Natus Vincere",
+        "logo": "https://img-cdn.hltv.org/teamlogo/9iMirAi7ArBLNU8p3kqUTZ.svg?ixlib=java-2.1.0&s=4dd8635be16122656093ae9884675d0c"
+      }
+    ]
+  },
+  {
+    "id": 2359935,
+    "time": "2025-06-13T13:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 9248,
+        "name": "paiN",
+        "logo": "https://img-cdn.hltv.org/teamlogo/x7znFH8_QjLXOQRyR2y7Xp.png?ixlib=java-2.1.0&w=100&s=9d82f86f4573bab52b77611afcddb595"
+      },
+      {
+        "id": 11882,
+        "name": "Nemiga",
+        "logo": "https://img-cdn.hltv.org/teamlogo/6ZPCm5r3XyGByXkFGiRnLh.png?ixlib=java-2.1.0&w=100&s=ec51c91e709bd6a892d27978e83115d5"
+      }
+    ]
+  },
+  {
+    "id": 2359936,
+    "time": "2025-06-13T10:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 4494,
+        "name": "MOUZ",
+        "logo": "https://img-cdn.hltv.org/teamlogo/IejtXpquZnE8KqYPB1LNKw.svg?ixlib=java-2.1.0&s=7fd33b8def053fbfd8fdbb58e3bdcd3c"
+      },
+      {
+        "id": 5973,
+        "name": "Liquid",
+        "logo": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62"
+      }
+    ]
+  },
+  {
+    "id": 2359937,
+    "time": "2025-06-13T19:00:00.000Z",
+    "event": {
+      "name": "BLAST.tv Austin Major 2025",
+      "logo": ""
+    },
+    "stars": 5,
+    "maps": "bo3",
+    "teams": [
+      {
+        "id": 5995,
+        "name": "G2",
+        "logo": "https://img-cdn.hltv.org/teamlogo/zFLwAELOD15BjJSDMMNBWQ.png?ixlib=java-2.1.0&w=100&s=88aeba1564bc27de69fb2302e47e1a7c"
+      },
+      {
+        "id": 9565,
+        "name": "Vitality",
+        "logo": "https://img-cdn.hltv.org/teamlogo/yeXBldn9w8LZCgdElAenPs.png?ixlib=java-2.1.0&w=100&s=a0731380d1075205aadb30905a49da55"
+      }
+    ]
+  }
+]
